@@ -13,7 +13,7 @@
 //番号リストのリスト間のスペース
 #set enum(spacing: 9pt)
 
-//フォント設定
+//フォント設定（別途後述の「見出しのフォントサイズ」設定が必要）
 #set text(font:"Noto Serif CJK JP",lang:"ja",size:10.5pt,)
 
 //見出し設定
@@ -21,7 +21,7 @@
 #set heading(numbering: "1.1")
 #show heading: set par(leading: 0.5em)//見出しの行間
 // デザイン設定
-#let heading-size = 10pt //見出しのフォントサイズ
+#let heading-size = 10.5pt //見出しのフォントサイズ
 #let box-size = 1em
 // level=1 の見出しに適用（章など）
 #show heading.where(level: 1): it => {
