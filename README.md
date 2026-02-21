@@ -22,5 +22,5 @@
 - 選択肢番号を変更する際には、`+ `のリストの前に、適宜、以下のような設定を置く。一度、設定すると、その後も引き継がれるので、デフォルトの選択肢番号に戻すときは改めて設定し直す。
 	- デフォルトリスト `#set enum(numbering: "1.")` 
 	- カタカナリスト：`#set enum(numbering: "ア.")` 
-	- 丸数字リスト ：#set enum(numbering: "①")
+	- 丸数字リスト ：`#set enum(numbering: "①")`
 	- その他は、[Numbering Function – Typst Documentation](https://typst.app/docs/reference/model/numbering/)を参照のこと。
